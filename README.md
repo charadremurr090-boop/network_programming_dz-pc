@@ -2,3 +2,14 @@
 
 # prac05 - проверка сервера:
 <img width="1567" height="820" alt="проверка" src="https://github.com/user-attachments/assets/f08f184f-a77c-413d-9f6b-d4d93039f647" />
+
+# prac04 - проверка сервера и ответы на вопросы:
+
+Создаём exe через gcc и открываем три клиента:
+<img width="974" height="937" alt="image" src="https://github.com/user-attachments/assets/ae3609ea-ae10-4bbd-938a-970e33c8e84f" />
+Запускаем Race:
+<img width="733" height="328" alt="image" src="https://github.com/user-attachments/assets/e13495cd-5806-4736-9a28-c8122e67f668" />
+
+Ответы на вопросы:
+Почему гонка не воспроизводится стабильно?
+Результат зависит от того, как планировщик чередует потоки. Поток прерывается между чтением значения и записи. Поэтому каждый новый запуск – другой.
