@@ -1,9 +1,9 @@
 # network_programming_prac
 
-# prac05 - проверка сервера:
+# prac05 (практика 20.11) - проверка сервера:
 <img width="1567" height="820" alt="проверка" src="https://github.com/user-attachments/assets/f08f184f-a77c-413d-9f6b-d4d93039f647" />
 
-# prac04 - проверка сервера и ответы на вопросы:
+# prac04 (практика 19.11) - проверка сервера и ответы на вопросы:
 
 Создаём exe через gcc и открываем три клиента:
 <img width="974" height="937" alt="image" src="https://github.com/user-attachments/assets/ae3609ea-ae10-4bbd-938a-970e33c8e84f" />
