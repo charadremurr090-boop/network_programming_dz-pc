@@ -14,6 +14,20 @@
 | Изменить часть | PATCH | /users/42 | {"email":"..."} | 200 / 204 | 400, 404 |
 | Удалить | DELETE | /users/42 | нет | 204 | 404 |
 
+prac05_2 (практика 20.11) - проверка WebSocket и данных
+
+JSON против protobuf: serialize.c
+<img width="517" height="112" alt="image" src="https://github.com/user-attachments/assets/92cdc028-cefe-4df8-bfc6-3f7bdfb15842" />
+
+Разбор кадра: ws_frame.c
+<img width="347" height="322" alt="image" src="https://github.com/user-attachments/assets/304b6858-d70e-4ff9-a793-fa1375400ad4" />
+
+Echo-сервер и клиент:
+<img width="465" height="381" alt="image" src="https://github.com/user-attachments/assets/da5fdc8b-54e6-49fd-b07c-33b2f5673803" />
+
+Чат двух клиентов:
+<img width="1440" height="831" alt="image" src="https://github.com/user-attachments/assets/127842dd-3da4-445e-95f1-30dd2270b274" />
+
 # prac04 (практика 19.11 / 17.11) - проверка сервера и ответы на вопросы:
 
 Создаём exe через gcc и открываем три клиента:
