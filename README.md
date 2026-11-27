@@ -1,5 +1,9 @@
 # network_programming_prac
 
+# prac07 (практика 26.11) - проверка сервера, вывод клиента:
+
+<img width="1271" height="369" alt="image" src="https://github.com/user-attachments/assets/4d597d64-f4f6-4f28-bf80-217eb9ca4ed3" />
+
 # prac05 (практика 20.11) - проверка сервера:
 <img width="1567" height="820" alt="проверка" src="https://github.com/user-attachments/assets/f08f184f-a77c-413d-9f6b-d4d93039f647" />
 
