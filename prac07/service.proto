@@ -1,0 +1,18 @@
+// Шаг 1. Контракт (слайд 5)
+syntax = "proto3";
+package lab;
+
+message UserRequest {
+  int32 id = 1;          // GetUser: id пользователя; ListUsers: сколько отдать (0 = всех)
+}
+
+message UserReply {
+  int32  id    = 1;
+  string name  = 2;
+  string email = 3;
+}
+
+service UserService {
+  rpc GetUser   (UserRequest) returns (UserReply);          // unary
+  rpc ListUsers (UserRequest) returns (stream UserReply);   // server stream
+}
